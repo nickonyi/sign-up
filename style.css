@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/HzFW.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo-text {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.logo-img {
+    height: auto;
+    width: 70px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.hero-logo {
+    display: flex;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background: rgba(0, 0, 0, 0.3);
+}
