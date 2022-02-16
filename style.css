@@ -7,11 +7,9 @@
 body {
     background-image: url("./img/HzFW.jpg");
     background-color: #cccccc;
-    height: 500px;
     background-position: start;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 .logo-text {
@@ -29,12 +27,95 @@ body {
     display: flex;
 }
 
+.wrapper>div {
+    flex: 1 1 auto;
+}
+
 .hero-logo {
     display: flex;
     height: 100px;
-    width: 500px;
+    width: 100px;
     align-items: center;
     justify-content: center;
     margin-top: 200px;
     background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content>div {
+    flex: 1 1 auto;
+}
+
+.hero-header {
+    background: #f0f0f0;
+    height: 300px;
+    padding-top: 150px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.hero-para {
+    margin: 20px 0px 20px 0px;
+}
+
+.form-container {
+    display: flex;
+    gap: 55px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.form-first,
+.form-second {
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-first>input,
+.form-second>input {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+}
+
+.hero-center {
+    background: #ffff;
+    height: 280px;
+    box-shadow: 0 40px 0 0 rgba(0, 0, 0, 0.9);
+}
+
+.hero-center>h1 {
+    margin-left: 30px;
+}
+
+.hero-finish {
+    height: 300px;
+    background: #f0f0f0;
+}
+
+.btn {
+    margin: 30px 0 40px 40px;
+    padding: 10px 50px 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(52, 100, 52, 0.8);
+    border: none;
+}
+
+.link {
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(10, 10, 10, 0.7);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 100, 52, 0.8);
 }
